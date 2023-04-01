@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Rotas que utilizam o método get
+Route::get('/orçamentos','App\Http\Controllers\ControladorOrcamento@index')
+->name('index');
+Route::get('/orçamentos/novo','App\Http\Controllers\ControladorOrcamento@create')
+->name('novo');
+Route::get('/orçamentos/editar/{id}','App\Http\Controllers\ControladorOrcamento@edit')
+->name('editar');
+Route::get('/orçamentos/excluir/{id}','App\Http\Controllers\ControladorOrcamento@destroy');
+//Rotas que utilizam o método post
+Route::post('/orçamentos','App\Http\Controllers\ControladorOrcamento@store');
+
+

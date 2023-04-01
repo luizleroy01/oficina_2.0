@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+}
+.center{
+    max-width:1280px;
+    margin:0 22%;
+    padding:20px;
+}
+form{
+    padding:30px;
+    border:solid black;
+    border-radius: 20px;
+    font-weight:bold;
+    font-size:20px;
+    width:90%;
+    margin-left:5%;
+    background-color: aliceblue;
+}
+form input{
+    margin:15px;
+}
+textarea{
+    padding:10px;
+    border-radius:20px;
+}
+.campo{
+    width:215%;
+    height:32px;
+    border-radius:10px;
+    padding:5px;
+}
+.bt-save{
+    width:90px;
+    height: 35px;
+    background-color:greenyellow;
+    font-size:18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bt-info{background-color:dodgerblue;}
+.bt-edit{background-color: gold;}
+.bt-erase{background-color:red !important;}
+.bt-cancel{
+    background-color: red;
+    color:black;
+    height:35px;
+    border:solid black;
+    width:90px;
+    cursor:pointer;
+    text-decoration:none;
+    border-radius:10px;
+    padding:4px;
+    font-size:18px;
+    font-weight: bold;
+}
+.botoes{
+    width:90px;
+    height: 35px;
+    font-size:20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin:10px;
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+    padding:10px;
+}
+
+table thead{
+    background-color:darkcyan !important;
+    color:white !important;
+}
+.table-index{
+    font-size:20px;
+    width:100%;
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.table-index tr{
+    height:50px;
+}
