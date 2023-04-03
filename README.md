@@ -12,7 +12,7 @@
 </h3>
 <h3>
     Em seguida deve-se iniciar o servidor Apache e o MySql para criar um databaseatravés do PhpMyAdmin, como informado no arquivo .env , o database é oficina_2.0. Isso é demonstrado  na imagem a seguir
-    ![image](https://user-images.githubusercontent.com/78800416/229521606-7344eddd-1133-45e9-94d7-515154173d20.png), além disso deve-se mudar a porta de 3306 para 3307 no XAMP
+    ![image](https://user-images.githubusercontent.com/78800416/229521606-7344eddd-1133-45e9-94d7-515154173d20.png), além disso deve-se mudar a porta de 3306 para 3307 no XAMPP
 <h3/>
 <h3>
     Após criar o database, basta executar o comando via terminal : php artisan migrate:fresh e, dessa forma, a tabela de orçamentos é criada no banco de dados oficina_2.0.Por fim, basta executar o comando php artisan serve para inicializar o servidor e poder acessar o site através da URL: http://localhost:8000/orçamentos
