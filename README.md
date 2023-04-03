@@ -7,5 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-##Sobre o projeto
-##Para rodar o projeto
+<p>
+    Para rodar o projeto, primeiramente deve-se instalado devidamente o Laravel juntamente ao Composer e o NodeJs para administração de dependências.Além disso é necessário ter instalado o XAMPP para conexão com o banco de dados mysql.
+</p>
