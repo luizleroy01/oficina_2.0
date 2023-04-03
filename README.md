@@ -15,6 +15,6 @@
     ![image](https://user-images.githubusercontent.com/78800416/229521606-7344eddd-1133-45e9-94d7-515154173d20.png)
 <h3/>
 <h3>
-    Após criar o database, basta executar o comando<span style ="color:yellow">php artisan migrate:fresh</span>
+    Após criar o database, basta executar o comando <span style ="color:yellow;">php artisan migrate:fresh</span>
 </h3>
 
