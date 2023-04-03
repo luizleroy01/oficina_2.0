@@ -11,10 +11,13 @@
     Para rodar o projeto, primeiramente deve-se instalado devidamente o Laravel juntamente ao Composer e o NodeJs para administração de dependências.Além disso é necessário ter instalado o XAMPP para conexão com o banco de dados mysql.
 </h3>
 <h3>
-    Em seguida deve-se criar um database no mysql através do PhpMyAdmin, como informado no arquivo .env , o database é oficina_2.0. Isso é demonstrado  na imagem a seguir
-    ![image](https://user-images.githubusercontent.com/78800416/229521606-7344eddd-1133-45e9-94d7-515154173d20.png)
+    Em seguida deve-se iniciar o servidor Apache e o MySql para criar um databaseatravés do PhpMyAdmin, como informado no arquivo .env , o database é oficina_2.0. Isso é demonstrado  na imagem a seguir
+    ![image](https://user-images.githubusercontent.com/78800416/229521606-7344eddd-1133-45e9-94d7-515154173d20.png), além disso deve-se mudar a porta de 3306 para 3307 no XAMP
 <h3/>
 <h3>
-    Após criar o database, basta executar o comando <span style ="color:yellow;">php artisan migrate:fresh</span>
+    Após criar o database, basta executar o comando via terminal : php artisan migrate:fresh e, dessa forma, a tabela de orçamentos é criada no banco de dados oficina_2.0.Por fim, basta executar o comando php artisan serve para inicializar o servidor e poder acessar o site através da URL: http://localhost:8000/orçamentos
+</h3>
+<h3>
+    Em seguida, basta aproveitar das funcionalidades do site, o banco pode ser populado adicionado novos orçamentos como indicado na página princiapal, como é possível também, editar, excluir e obter informações detalhadas sobre cada orçamento além de poder filtar os dados na tela principal
 </h3>
 
