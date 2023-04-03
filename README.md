@@ -10,3 +10,7 @@
 <p>
     Para rodar o projeto, primeiramente deve-se instalado devidamente o Laravel juntamente ao Composer e o NodeJs para administração de dependências.Além disso é necessário ter instalado o XAMPP para conexão com o banco de dados mysql.
 </p>
+<p>
+    Em seguida deve-se criar um database no mysql através do PhpMyAdmin, como informado no arquivo .env , o database é oficina_2.0.
+    ![image](https://user-images.githubusercontent.com/78800416/229521606-7344eddd-1133-45e9-94d7-515154173d20.png)
+</>
