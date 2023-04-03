@@ -7,14 +7,15 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Run the migrations.
+     * Migration para criação da tabela de orçamentos no banco de dados
      */
     public function up(): void
     {
         Schema::create('orcamentos', function (Blueprint $table) {
             $table->id();
             $table->string('nome_cliente');
-            $table->date('data_hora');
+            $table->date('data');
+            $table->time('hora');
             $table->string('nome_vendedor');
             $table->string('descricao');
             $table->float('preco');

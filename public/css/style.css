@@ -1,15 +1,27 @@
+/**
+* Para paradronixar todo o site com a mesma estilização
+*/
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
     font-family: 'Lato', sans-serif;
 }
+/**
+* Para manter o conteúdo principal em uma div centralizada
+*/
 .center{
     max-width:1280px;
     margin:0 22%;
     padding:20px;
 }
-form{
+header{
+    margin:0 !important;
+    background-color: crimson;
+    color:white;
+    wdth:100;
+}
+.form-input{
     padding:30px;
     border:solid black;
     border-radius: 20px;
@@ -84,4 +96,55 @@ table thead{
 }
 .table-index tr{
     height:50px;
+}
+.bt-adicionar{
+    margin:10px 0 !important;
+    background-color:limegreen;
+}
+.informacoes{
+    background-color: aliceblue;
+    width:100%;
+    margin: 0 !important;
+    padding:10px;
+    border:solid black;
+    border-radius:10px;
+}
+.table-info{
+    font-size:20px;
+    width:100%;
+    text-align: center;
+    padding: 10px;
+    background-color:gainsboro;
+}
+.td-dados{
+    border:1px solid black; padding:10px;
+}
+.warning{
+    background-color: orange;
+    width:100%;
+    text-align: center;
+    height: 50px;
+    margin:15px 0;
+    padding:10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.form-search{
+    width:100%;
+    padding:10px;
+    border:solid black;
+    border-radius: 10px;
+    font-weight:bold;
+    font-size:18px;
+    background-color: aliceblue;
+    height:140px;
+
+}
+.campo-busca{
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    padding:5px;
+    margin-left:5px;
 }

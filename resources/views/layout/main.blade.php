@@ -1,3 +1,4 @@
+{{-- Página usada como template para as outras páginas do site --}}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +13,11 @@
     <title>Orçamentos</title>
 </head>
 <body>
+    <header>
+        <div class ="center">
+            <h1><a style="text-decoration:none;color:white" href ="{{route('index')}}">OFICINA 2.0</a></h1>
+        </div>
+    </header>
     <main class = "center">
     @hasSection ('body')
         @yield('body')
